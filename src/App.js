@@ -620,7 +620,7 @@ export default function StatsBuilderStandalone() {
                   <button
                     key={c.key}
                     onClick={() => setActiveCategory(c.key)}
-                    className={`px-3 py-1.5 rounded border text-sm ${activeCategory===c.key ? 'bg-teal-700/60 border-teal-400 text-teal-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}
+                    className={`px-3 py-1.5 rounded border text-sm ${activeCategory===c.key ? 'bg-indigo-700/60 border-indigo-400 text-indigo-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}
                   >
                     {c.label}
                   </button>
@@ -771,7 +771,7 @@ export default function StatsBuilderStandalone() {
                           <div className="text-xs text-gray-400">Leader Ability</div>
                         </div>
                         <button
-                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-indigo-600/60 border-indigo-400 text-indigo-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
+                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-DarkOrange-600/60 border-DarkOrange-400 text-DarkOrange-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
                           onClick={() => setLeaderAbilities(prev => active ? prev.filter(id => id !== a.id) : (prev.length >= 2 ? prev : [...prev, a.id]))} disabled={!active && leaderAbilities.length >= 2}
                         >
                           {active ? 'Remove' : 'Select'}
