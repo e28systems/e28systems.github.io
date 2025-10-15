@@ -771,7 +771,7 @@ export default function StatsBuilderStandalone() {
                           <div className="text-xs text-gray-400">Leader Ability</div>
                         </div>
                         <button
-                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-DarkOrange-600/60 border-DarkOrange-400 text-DarkOrange-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
+                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-darkorange-600/60 border-darkorange-400 text-darkorange-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
                           onClick={() => setLeaderAbilities(prev => active ? prev.filter(id => id !== a.id) : (prev.length >= 2 ? prev : [...prev, a.id]))} disabled={!active && leaderAbilities.length >= 2}
                         >
                           {active ? 'Remove' : 'Select'}
@@ -793,7 +793,7 @@ export default function StatsBuilderStandalone() {
 
           {/* Summary Panel */}
         <div className="xl:col-span-1 bg-gray-800/40 border border-gray-700 rounded p-3 h-max">
-          <div className="text-sm text-DarkOrange-300 space-y-2">
+          <div className="text-sm text-gray-300 space-y-2">
             <div className="font-semibold text-gray-100">Summary</div>
             <div className="text-xs">Base+Stats: {baseAndStats} pts · Psychic: +{psychicAdd} pts · Weapons: +{weaponsTotal} pts · Equipment: +{equipmentTotal} pts · Abilities: +{abilitiesTotal} pts</div>
             <div className={`text-base font-bold ${overCap ? 'text-red-300' : 'text-indigo-200'}`}>Total: {total} / {pointsCap} pts</div>
