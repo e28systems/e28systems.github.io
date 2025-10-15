@@ -153,7 +153,6 @@ const WEAPONS = {
     { id: "h:shuriken-cannon", category: "heavy", name: "Shuriken Cannon", cost: 7, profiles: [{ label: "Profile", atk: 5, hit: "User", dmg: "4/5", special: [] }] },
     { id: "h:soulreaper-cannon", category: "heavy", name: "Soulreaper Cannon", cost: 12, profiles: [{ label: "Profile", atk: 6, hit: "User", dmg: "4/5", special: ["Piercing Crits (-2)"] }] },
     { id: "h:wraith-cannon", category: "heavy", name: "Wraith Cannon", cost: 13, profiles: [{ label: "Profile", atk: 4, hit: "User", dmg: "6/3", special: ["MW (3)", "Heavy (Dash)", "Piercing (-4)", "Crits on 9+"] }] },
-    { id: "h:placeholder", category: "heavy", name: "Wraith Cannon", cost: 13, profiles: [{ label: "Profile", atk: 4, hit: "User", dmg: "6/3", special: ["MW (3)", "Heavy (Dash)", "Piercing (-4)", "Crits on 9+"] }] },
   ],
 };
 
