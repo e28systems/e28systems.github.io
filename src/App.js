@@ -771,7 +771,7 @@ export default function StatsBuilderStandalone() {
                           <div className="text-xs text-gray-400">Leader Ability</div>
                         </div>
                         <button
-                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-gray-600/60 border-gray-400 text-gray-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
+                          className={`px-2 py-1 text-xs rounded border ${active ? 'bg-darkorange-600/60 border-darkorange-400 text-darkorange-50' : 'bg-gray-800 border-gray-700 hover:bg-gray-700'}`}
                           onClick={() => setLeaderAbilities(prev => active ? prev.filter(id => id !== a.id) : (prev.length >= 2 ? prev : [...prev, a.id]))} disabled={!active && leaderAbilities.length >= 2}
                         >
                           {active ? 'Remove' : 'Select'}
