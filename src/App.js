@@ -793,7 +793,7 @@ export default function StatsBuilderStandalone() {
 
           {/* Summary Panel */}
         <div className="xl:col-span-1 bg-gray-800/40 border border-gray-700 rounded p-3 h-max">
-          <div className="text-sm text-gray-300 space-y-2">
+          <div className="text-sm text-DarkOrange-300 space-y-2">
             <div className="font-semibold text-gray-100">Summary</div>
             <div className="text-xs">Base+Stats: {baseAndStats} pts · Psychic: +{psychicAdd} pts · Weapons: +{weaponsTotal} pts · Equipment: +{equipmentTotal} pts · Abilities: +{abilitiesTotal} pts</div>
             <div className={`text-base font-bold ${overCap ? 'text-red-300' : 'text-indigo-200'}`}>Total: {total} / {pointsCap} pts</div>
