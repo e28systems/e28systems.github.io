@@ -606,7 +606,7 @@ export default function StatsBuilderStandalone() {
 
           {/* Pane selector */}
           <div className="flex items-center gap-2 mt-4 mb-2">
-            <button onClick={() => setPane('weapons')} className={`px-3 py-1.5 rounded border text-sm ${pane==='weapons' ? 'bg-indigo-700/60 border-indigo-400 text-indigo-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}>Weapons</button>
+            <button onClick={() => setPane('weapons')} className={`px-3 py-1.5 rounded border text-sm ${pane==='weapons' ? 'bg-teal-700/60 border-teal-400 text-teal-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}>Weapons</button>
             <button onClick={() => setPane('equipment')} className={`px-3 py-1.5 rounded border text-sm ${pane==='equipment' ? 'bg-indigo-700/60 border-indigo-400 text-indigo-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}>Equipment</button>
             <button onClick={() => setPane('abilities')} className={`px-3 py-1.5 rounded border text-sm ${pane==='abilities' ? 'bg-indigo-700/60 border-indigo-400 text-indigo-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}>Fighter Abilities</button>
             <button onClick={() => setPane('leader')} className={`px-3 py-1.5 rounded border text-sm ${pane==='leader' ? 'bg-indigo-700/60 border-indigo-400 text-indigo-100' : 'bg-gray-900 border-gray-700 hover:bg-gray-800 text-gray-200'}`}>Leader Abilities</button>
